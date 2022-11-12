@@ -47,6 +47,15 @@ a {
   align-items: center;
 }
 
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
 @media (max-width: 700px) {
   #navbar {
     flex-direction: column;
